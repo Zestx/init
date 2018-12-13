@@ -1,0 +1,7 @@
+The adress of the "local" router is 10.11.254.254 and most importantly, the device that makes the 
+link between me in the LAN, and the outside world (WAN, the Internet) is:
+
+	The NAT(nat), which IP is 10.60.1.1.
+
+NAT stands for Network Adress Translation. Its purpose is to make the translation between local IP's
+(192.168.x.x or 10.x.x.x) and public/external IP's, using ports and keeping a table of "transactions".

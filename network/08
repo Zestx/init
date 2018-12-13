@@ -1,0 +1,10 @@
+The provider of slash16.org is Amazon CloudFront.
+
+There are several way to find it:
+	
+	-	Using <traceroute slash.org> will usually give good hints, as the last IP's returned are usually the provider ip.
+
+	-	<nslookup slash16.org> will return the IP of the website. We can then use it "backward":
+	  	<nslookup 52.85.245.51> will return a server name, here : name = server-52-85-245-66.ams50.r.cloudfront.net.
+
+	-	There's also websites that do this for you, like http://who-hosts.com.

@@ -1,0 +1,5 @@
+Using the following command:
+
+	sudo echo "46.19.122.85	intra.42.fr" >> /etc/hosts
+
+To add this entry to the local DNS table.

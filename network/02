@@ -1,0 +1,4 @@
+echo "BROADCAST:"
+ifconfig en0 | grep "inet " | cut -d " " -f6
+echo "IPs:"
+ifconfig en0 | grep "inet" | cut -d " " -f2
