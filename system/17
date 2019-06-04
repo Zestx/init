@@ -1,4 +1,1 @@
-# requires root
-sudo service ssh stop
-# or
-sudo /etc/init.d/ssh stop
+ssh qbackaer@127.0.0.1

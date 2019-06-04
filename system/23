@@ -1,0 +1,7 @@
+a)SSH (command line): 
+		ssh <username>@<ip>
+  then enter password when asked.
+  example:
+		ssh qbackaer@192.168.1.27
+b)GRAPHICAL
+  just enter username and password when asked.

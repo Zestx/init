@@ -1,6 +1,2 @@
-# To kill  only the tail process: 
-pkill tail
+sudo pkill tail
 
-# To kill all currently running jobs:
-kill $(jobs -p)
-# as <jobs -p> will output current running jobs PID's, we send those pid to <kill>
