@@ -1,4 +1,2 @@
-echo "BROADCAST:"
-ifconfig en0 | grep "inet " | cut -d " " -f6
-echo "IPs:"
-ifconfig en0 | grep "inet" | cut -d " " -f2
+echo broadcast addr.:  && ifconfig en0 | grep "inet " | cut -d " " -f6 && \
+echo all local network addr.:  && ping -c1 ${ifconfig en0 | grep "inet " | cut -d " " -f6} | arp -a

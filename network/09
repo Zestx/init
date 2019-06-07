@@ -1,3 +1,4 @@
+#host 42.fr | grep "address" | cut -d " " -f4
 Address: 163.172.250.13
 Address: 163.172.250.11
 Address: 163.172.250.12

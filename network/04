@@ -1,1 +1,1 @@
-netstat -rn | grep "default" -m 1 | awk '{ print $2 }'
+netstat -rn | grep "default" -m 1 
