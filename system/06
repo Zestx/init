@@ -1,4 +1,1 @@
-# requires root
 sudo service ssh restart
-# or
-sudo /etc/init.d/ssh restart

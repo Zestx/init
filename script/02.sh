@@ -15,4 +15,3 @@ sudo userdel $USER
 if [ $DELHOME = "y" ]; then
 sudo rm -rf /home/$USER
 fi
-echo "...user deleted."
